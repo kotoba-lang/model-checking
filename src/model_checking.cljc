@@ -10,4 +10,10 @@
   collision risk `verify` carries in a large, actively-developed org —
   same class of correction as `kami-si` -> `signal-integrity`.
 
-  Zero-dep portable CLJC. Restoration pending.")
+  One namespace per original Rust module:
+    model-checking.equivalence — exhaustive combinational equivalence checking
+    model-checking.model-check — BFS-based bounded model checking (safety/liveness/reachability)
+    model-checking.assertion   — SVA-style assertion evaluation over signal traces
+    model-checking.coverage    — coverage collection/reporting with cross-bin support
+
+  Zero-dep portable CLJC — pure data + pure functions, no IO/GPU.")
