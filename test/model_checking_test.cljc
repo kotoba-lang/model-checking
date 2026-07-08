@@ -10,7 +10,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'model-checking)))))
+    (is (some? (find-ns 'model-checking)))))
 
 ;; mirrors `equivalence_identical_circuits_pass`
 (deftest equivalence-identical-circuits-pass
