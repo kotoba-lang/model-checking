@@ -1,7 +1,7 @@
 (ns model-checking.model-check
   "Bounded model checking via BFS reachability. Restored from
   kami-verify's `model_check` module (deleted PR #82)."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def property-types #{:safety :liveness :reachability})
 (def check-statuses #{:verified :violated :timeout})
