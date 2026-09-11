@@ -23,7 +23,7 @@ class of correction as `kami-si` -> `signal-integrity`.
 
 Restored — all 4 modules ported from the original 753-line Rust `lib.rs`,
 with all 6 original Rust unit tests mirrored 1:1 in
-`test/model_checking_test.cljc` (+2 extra tests for full domain coverage)
+`test/model_checking_test.cljk` (+2 extra tests for full domain coverage)
 — 8 tests / 23 assertions, 0 failures. Pure data + pure functions
 throughout; no IO/GPU.
 
